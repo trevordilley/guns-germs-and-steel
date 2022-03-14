@@ -1,9 +1,16 @@
 {
-  "name": "guns-germs-and-steel",
-  "version": "1.0.0",
-  "description": "A game modeled after Jared Diamond's book \"Guns, Germs and Steel\"",
-  "main": "index.js",
-  "repository": "https://github.com/trevordilley/guns-germs-and-steel.git",
-  "author": "trevordilley <trevor.lee.dilley@gmail.com>",
-  "license": "MIT"
+  "name": "ld48",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3",
+    "vite": "^2.1.5"
+  },
+  "dependencies": {
+    "phaser": "^3.54.0"
+  }
 }
