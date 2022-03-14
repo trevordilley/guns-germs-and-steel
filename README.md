@@ -35,3 +35,28 @@ Some "power ups" (technology) can be found which make the player attacks more po
 The goal is to eat the most food. 
 
 The key point is that all of this is distributed UNEVENLY. 
+
+## Tech Stack
+The technologies to build the game are below.
+
+### Framework: PhaserJS
+Phaser is a very approachable and ergonomic game dev framework. 
+
+Recently I stumbled onto a game named "Vampire Survivors" which is written 
+With Phaser: https://store.steampowered.com/app/1794680/Vampire_Survivors/
+
+I was impressed by the number of entities on the screen at once, and paired with an
+ECS (Entity-Component-System) framework like `bitecs`
+https://github.com/NateTheGreatt/bitECS
+
+I'm confident we have a lot going on the screen at once!
+
+### Language: Typescript
+
+https://www.typescriptlang.org/
+
+Typescript is a superset of JavaScript. It has more safety gaurantees so you don't accidentally try to add a number to a `Cat`. 
+It's also super ergonomic and productive!
+
+### Editor: Intellij or VSCode
+I'm pretty sure the free version of Intellij has plenty of features but VSCode is also super productive with typescript. 
