@@ -43,6 +43,20 @@ The goal is to eat the most food.
 
 The key point is that all of this is distributed UNEVENLY. 
 
+
+Every interaction between a human and animal has an extremely low chance of 
+Infecting the human with a plague. The plague will kill ~70% of infected 
+humans. 
+
+Survivors are marked with that plague. Any interaction between that human and others
+without that plague marker has a chance to spread that plague to the non-marked human
+with the same chance of mortality. Ideally this roughly models
+populations with lots of animals and people being more likely to cause plagues. 
+
+Populations that are less dense will not have that plague, and this be at a disadvantage to those that have survived that plague. 
+
+Each animal can spread its own plague. 
+
 ## Tech Stack
 The technologies to build the game are below.
 
