@@ -19,7 +19,7 @@ Essentially, those high level points are:
 * The density of human population and proximity of animals created plagues which were not present in less dense populations. 
 
 
-Those points above are why Europeans we're able to decimate Native Americans, why the South African Pygmies have almost no remant of their native languages, and essentially accounts for the entire theory of how history has played out. 
+Those points above are why Europeans were able to decimate Native Americans, why the South African Pygmies have almost no remant of their native languages, and essentially accounts for the entire theory of how history has played out. 
 
 ## The Game
 
