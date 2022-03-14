@@ -1,9 +1,9 @@
 import Vector2 = Phaser.Math.Vector2;
-import {AddEntity, Human, INITIAL_ENTITY_STATE} from "../types";
-import {calcRadiusFromCalories} from "../utils";
+import {AddEntity, Human, INITIAL_CREATURE_STATE} from "../types";
+import {calcCreatureRadiusFromCalories} from "../utils";
 
 export const INITIAL_HUMAN_STATE: Human = {
-  ...INITIAL_ENTITY_STATE,
+  ...INITIAL_CREATURE_STATE,
   plaguesSurvived: [],
   techLevel: 1,
   allegiance: 0x0000FFFF
@@ -18,7 +18,7 @@ export const addHuman = (initialState: AddEntity<Human>) => {
 
   const setCalories = (deltaCalories: number) => {
     state.calories = state.calories + deltaCalories
-    sprite.scale = calcRadiusFromCalories(state.calories)
+    sprite.scale = calcCreatureRadiusFromCalories(state.calories)
     multiply()
   }
 

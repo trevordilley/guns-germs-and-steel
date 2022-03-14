@@ -1,10 +1,10 @@
 import 'phaser';
 import {addHuman, INITIAL_HUMAN_STATE} from "../entities/humans";
-import {EntityActions} from "../types";
+import {CreatureActions} from "../types";
 
 export class MenuScene extends Phaser.Scene {
 
-  player?: EntityActions
+  player?: CreatureActions
   constructor() {
     super({
       key: 'MenuScene'
