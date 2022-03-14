@@ -3,6 +3,12 @@ A game aimed at modeling some of the high level takeaways from Jared  Diamond's 
 
 Here's the book: https://books.google.com/books/about/Guns_Germs_and_Steel.html?id=kLKTa_OeoNIC#v=onepage&q&f=false
 
+*Here's an awesome couple videos which are essentially a summary of the book*
+By CGP Gray
+
+* https://youtu.be/JEYh5WACqEk
+* https://youtu.be/wOmjnioNulo
+
 Essentially, those high level points are:
 
 * Race has nothing to do with the shape of history (western civilizations colonization and extermination of indigenous peoples across the planet)
