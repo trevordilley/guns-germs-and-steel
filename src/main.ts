@@ -1,20 +1,12 @@
 import './style.css'
 
-// const app = document.querySelector<HTMLDivElement>('#app')!
-
-// app.innerHTML = `
-//   <h1>Hello Vite!</h1>
-//   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-//   <div id="game"></div>
-// `;
-
 import 'phaser';
-import { MenuScene } from './menu-scene';
+import { MenuScene } from './scenes/core.scene';
 
 const GameConfig: Phaser.Types.Core.GameConfig = {
   title: 'ExampleGame',
-  url: 'https://github.com/digitsensitive/phaser3-typescript',
-  version: '2.0',
+  url: 'https://github.com/trevordilley/guns-germs-and-steel',
+  version: '1.0',
   width: 800,
   height: 600,
   type: Phaser.AUTO,
